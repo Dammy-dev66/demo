@@ -35,12 +35,12 @@
   --dark-2:      #262625;
   --paper:       #f4f1ec;
   --cream:       #eae4d7;
-  --gold:        #c9a467;
-  --gold-soft:   #dcc190;
-  --teal:        #5cb6ac;
-  --teal-soft:   #8ecec5;
-  --ink:         #241f1c;
-  --ink-soft:    #6b6459;
+  --gold:        #CBAE74;
+  --gold-soft:   #D9C48E;
+  --teal:        #139A9D;
+  --teal-soft:   #66C2C6;
+  --ink:         #2e2e2e;
+  --ink-soft:    #655c52;
   --paper-ink:   #efe9dd;
   --line-dark:   rgba(244,241,236,0.14);
   --line-paper:  rgba(36,31,28,0.15);
@@ -1071,100 +1071,96 @@ footer.site-footer{
   </div>
 </aside>
 
-<section class="section-dark page-hero" style="padding-bottom:36px;">
+<section class="section-dark page-hero" style="padding-bottom:28px;">
   <div class="wrap">
     <div class="breadcrumb">
       <a href="index.html" style="color:var(--paper);">Home</a><span class="sep" style="color:rgba(244,241,236,0.4);">/</span><span class="current" style="color:var(--paper);">Jewellery</span>
     </div>
     <span class="eyebrow" style="margin-top:22px;">Jewellery</span>
-    <h1 style="color:var(--paper);">Geometric structure, built slowly and by hand.</h1>
-    <p class="lede">Trained through a Master's degree in jewellery design in Germany and years spent within the technical precision of the craft, each piece begins as a deliberate study in form — the counterpart to the fast, raw movement of the paintings.</p>
+    <h1 style="color:var(--paper);">I build each piece slowly, by hand.</h1>
+    <p class="lede">I trained in jewellery design in Germany, and I let that technical discipline shape a quieter, more intimate body of work. Older collections live here as archive studies; only the upcoming collection is offered for purchase.</p>
   </div>
 </section>
 
 <section class="section-paper pad-lg" style="padding-top:0;">
   <div class="wrap">
-    <div class="shop-bar">
-      <div class="filter-tabs">
-        <button class="filter-tab active" data-filter="all">All</button>
-        <button class="filter-tab" data-filter="available">Available</button>
-        <button class="filter-tab" data-filter="new">New</button>
-        <button class="filter-tab" data-filter="sold">Sold</button>
+    <div class="strip-head" style="margin-bottom:28px;">
+      <div>
+        <span class="eyebrow tone-teal">Archive</span>
+        <h2>Older collections, kept as studies.</h2>
       </div>
-      <div style="display:flex; align-items:center; gap:18px;">
-        <span class="result-count" id="resultCount">6 Pieces</span>
-        <select class="sort-select">
-          <option>Sort: Newest</option>
-          <option>Sort: Price, Low to High</option>
-          <option>Sort: Price, High to Low</option>
-        </select>
-      </div>
+      <p style="max-width:460px;font-size:13px;line-height:1.8;color:var(--ink-soft);margin:0;">These pieces remain part of my gallery story. They are shown as references, not as active products.</p>
     </div>
-    <div class="tile-grid" style="margin-top:36px;">
-
-      <div class="tile" data-id="j-study-1" data-title="Study I" data-meta="Gold Vermeil · One of One" data-price="€680" data-swatch="sw-1" data-status="available">
+    <div class="tile-grid">
+      <div class="tile is-sold" data-id="j-archive-1" data-title="Study I" data-meta="Gold Vermeil · Archive" data-price="Archive" data-swatch="sw-1" data-status="archived">
         <div class="tile-art">
           <div class="swatch sw-1"></div>
-          <span class="placeholder-tag">Placeholder</span>
-          <span class="status-badge status-available"><span class="dot"></span>Available</span>
-          <div class="tile-hover-bar"><button class="add-bag-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="bag-btn-label">Add to Bag</span></button></div>
+          <span class="placeholder-tag">Archive</span>
+          <span class="status-badge status-sold"><span class="dot"></span>Archived</span>
         </div>
-        <div class="tile-meta"><span class="t-name">Study I</span><span class="t-price">€680</span></div>
+        <div class="tile-meta"><span class="t-name">Study I</span><span class="t-price">Archive</span></div>
       </div>
-
-      <div class="tile" data-id="j-study-2" data-title="Study II" data-meta="Gold Vermeil · One of One" data-price="€540" data-swatch="sw-5" data-status="available">
+      <div class="tile is-sold" data-id="j-archive-2" data-title="Study II" data-meta="Gold Vermeil · Archive" data-price="Archive" data-swatch="sw-5" data-status="archived">
         <div class="tile-art">
           <div class="swatch sw-5"></div>
-          <span class="placeholder-tag">Placeholder</span>
-          <span class="status-badge status-available"><span class="dot"></span>Available</span>
-          <div class="tile-hover-bar"><button class="add-bag-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="bag-btn-label">Add to Bag</span></button></div>
+          <span class="placeholder-tag">Archive</span>
+          <span class="status-badge status-sold"><span class="dot"></span>Archived</span>
         </div>
-        <div class="tile-meta"><span class="t-name">Study II</span><span class="t-price">€540</span></div>
+        <div class="tile-meta"><span class="t-name">Study II</span><span class="t-price">Archive</span></div>
       </div>
-
-      <div class="tile is-sold" data-id="j-study-3" data-title="Study III" data-meta="Sterling Silver · One of One" data-price="Sold" data-swatch="sw-9" data-status="sold">
+      <div class="tile is-sold" data-id="j-archive-3" data-title="Study III" data-meta="Sterling Silver · Archive" data-price="Archive" data-swatch="sw-9" data-status="archived">
         <div class="tile-art">
           <div class="swatch sw-9"></div>
-          <span class="placeholder-tag">Placeholder</span>
-          <span class="status-badge status-sold"><span class="dot"></span>Sold</span>
+          <span class="placeholder-tag">Archive</span>
+          <span class="status-badge status-sold"><span class="dot"></span>Archived</span>
         </div>
-        <div class="tile-meta"><span class="t-name">Study III</span><span class="t-price">Sold</span></div>
+        <div class="tile-meta"><span class="t-name">Study III</span><span class="t-price">Archive</span></div>
       </div>
+    </div>
+  </div>
+</section>
 
-      <div class="tile" data-id="j-study-4" data-title="Study IV" data-meta="Gold Vermeil · One of One" data-price="€720" data-swatch="sw-7" data-status="new">
+<section class="section-dark pad-lg" style="padding-top:0;">
+  <div class="wrap">
+    <div class="strip-head" style="margin-bottom:28px;">
+      <div>
+        <span class="eyebrow">Upcoming Collection</span>
+        <h2>I am offering this collection for purchase.</h2>
+      </div>
+      <p style="max-width:460px;font-size:13px;line-height:1.8;color:rgba(244,241,236,0.72);margin:0;">This is the current shoppable path. It keeps the ecommerce layer present without turning the page into a standard shop template.</p>
+    </div>
+    <div class="tile-grid" style="margin-top:24px;">
+      <div class="tile" data-id="j-study-4" data-title="Study IV" data-meta="Gold Vermeil · Upcoming Collection" data-price="€720" data-swatch="sw-7" data-status="new">
         <div class="tile-art">
           <div class="swatch sw-7"></div>
-          <span class="placeholder-tag">Placeholder</span>
+          <span class="placeholder-tag">Preview</span>
           <span class="status-badge status-new"><span class="dot"></span>New</span>
           <div class="tile-hover-bar"><button class="add-bag-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="bag-btn-label">Add to Bag</span></button></div>
         </div>
         <div class="tile-meta"><span class="t-name">Study IV</span><span class="t-price">€720</span></div>
       </div>
-
-      <div class="tile" data-id="j-study-5" data-title="Study V" data-meta="Sterling Silver · One of One" data-price="€460" data-swatch="sw-1" data-status="available">
+      <div class="tile" data-id="j-study-5" data-title="Study V" data-meta="Sterling Silver · Upcoming Collection" data-price="€460" data-swatch="sw-1" data-status="available">
         <div class="tile-art">
           <div class="swatch sw-1"></div>
-          <span class="placeholder-tag">Placeholder</span>
+          <span class="placeholder-tag">Preview</span>
           <span class="status-badge status-available"><span class="dot"></span>Available</span>
           <div class="tile-hover-bar"><button class="add-bag-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="bag-btn-label">Add to Bag</span></button></div>
         </div>
         <div class="tile-meta"><span class="t-name">Study V</span><span class="t-price">€460</span></div>
       </div>
-
-      <div class="tile" data-id="j-study-6" data-title="Study VI" data-meta="Gold Vermeil · One of One" data-price="€615" data-swatch="sw-5" data-status="available">
+      <div class="tile" data-id="j-study-6" data-title="Study VI" data-meta="Gold Vermeil · Upcoming Collection" data-price="€615" data-swatch="sw-5" data-status="new">
         <div class="tile-art">
           <div class="swatch sw-5"></div>
-          <span class="placeholder-tag">Placeholder</span>
-          <span class="status-badge status-available"><span class="dot"></span>Available</span>
+          <span class="placeholder-tag">Preview</span>
+          <span class="status-badge status-new"><span class="dot"></span>New</span>
           <div class="tile-hover-bar"><button class="add-bag-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="bag-btn-label">Add to Bag</span></button></div>
         </div>
         <div class="tile-meta"><span class="t-name">Study VI</span><span class="t-price">€615</span></div>
       </div>
-
     </div>
 
     <div class="callout-note">
-      <p style="max-width:620px;margin-top:56px;font-family:var(--f-accent);font-size:18px;font-style:italic;color:var(--ink);">Currently taking a limited number of studio enquiries for new pieces and small commissions.</p>
+      <p style="max-width:620px;margin-top:52px;font-family:var(--f-accent);font-size:18px;font-style:italic;color:var(--paper);">The archive stays visible here as context. The new collection is the only one I am selling.</p>
     </div>
   </div>
 </section>
@@ -1172,7 +1168,7 @@ footer.site-footer{
 <section class="section-dark cta-band">
   <div class="wrap">
     <span class="eyebrow">Checkout</span>
-    <h2>Interested in a piece, or a custom commission?</h2>
+    <h2>Interested in a piece?</h2>
     <a href="contact.html" class="btn btn-gold">Shop / Checkout</a>
   </div>
 </section>
